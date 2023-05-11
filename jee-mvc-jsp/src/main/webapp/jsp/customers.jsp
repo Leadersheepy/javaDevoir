@@ -40,22 +40,22 @@
     <a class="w3-button" href="<c:url value="/" />">Retour</a>
 </div>
 
-
+<i> Suite à une erreur de partage de données le tableau ne peut pas s'afficher donc il a été commenté :(</i>
 
 <table id="customersTable" class="w3-centered w3-table-all">
     <thead>
     <tr class="w3-light-grey">
-        <th>Id</th>
-        <th>Customer</th>
+
     </tr>
     </thead>
     <tbody>
-    <c:forEach items="${customers}" var="elem">
+
+   <%-- <c:forEach items="${customers}" var="elem">
         <tr>
             <th scope="row">${elem.firstName}</th>
             <td>${elem.lastName}</td>
         </tr>
-    </c:forEach>
+    </c:forEach>--%>
 
     </tbody>
 </table>
