@@ -16,7 +16,7 @@
     <a href="countries">Countries</a>
     <a href="cities">Cities</a>
 
-    <a href="customers.jsp">Client ! </a>
+    <a href="customers">Client</a>
 
 </body>
 </html>

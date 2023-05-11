@@ -18,7 +18,7 @@
 
 </head>
 
-<body onload="init();">
+<body>
 
 <%--<jsp:include page="header.jsp"></jsp:include>--%>
 
@@ -28,6 +28,14 @@
     </div>
 
     <br>
+
+    <img src="../../resources/images/espion.jpg" />
+
+    <div class="w3-panel w3-leftbar w3-light-grey">
+        <p class="w3-xlarge w3-serif">
+            <i>"Bonjour à toi espion Java007 ! Bienvenue sur la page d'espionnage : Ici tu pourras trouver tout nos clients avec leurs informations, mais surtout leurs coordonnées, bon espionnage !"</i></p>
+        <p>Marine K006</p>
+    </div>
 
     <a class="w3-button" href="<c:url value="/" />">Retour</a>
 </div>
