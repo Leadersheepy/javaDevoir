@@ -11,9 +11,9 @@ import java.util.List;
 public class Customer {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "customer_id")
-    private int customerId;
+        @Column(name = "customer_id")
+            @GeneratedValue(strategy = GenerationType.IDENTITY)
+        private Long customerId;
 
         @Column(name = "store_id")
         private int storeId;
@@ -49,12 +49,6 @@ public class Customer {
     }
 
     @Override
-    public String toString() {
-        return "Customer [id=" + storeId + ", firstName=" + firstName + ", lastName" + lastName + ", email" + email + ", addressId" + addressId + ", active" + active + ", createDate" + createDate + ", lastUpdate=" + lastUpdate + "]";
-    }
+    public String toString() { return "Customer [customerId=" + customerId +",id=" + storeId + ", firstName=" + firstName + ", lastName" + lastName + ", email" + email + ", addressId" + addressId + ", active" + active + ", createDate" + createDate + ", lastUpdate=" + lastUpdate + "]";}
 
-
-
-
-    // Constructors, getters, and setters
 }

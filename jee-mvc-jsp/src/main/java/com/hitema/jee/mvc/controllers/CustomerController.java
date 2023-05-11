@@ -1,5 +1,6 @@
 package com.hitema.jee.mvc.controllers;
 
+import com.hitema.jee.mvc.entities.Country;
 import com.hitema.jee.mvc.entities.Customer;
 import com.hitema.jee.mvc.services.CustomerService;
 import jakarta.annotation.PostConstruct;
@@ -30,7 +31,7 @@ public class CustomerController {
 
 
         @GetMapping("/customers")
-        public ModelAndView getCountries() {
+        public ModelAndView getCustomers() {
             log.trace("Appel controlleur Customer");
             List<Customer> customers = service.readAll();
             return new ModelAndView("customers","customers",customers);
