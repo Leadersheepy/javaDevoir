@@ -15,5 +15,8 @@
     <h1 style="text-align: center"><spring:message code="application.title"/></h1>
     <a href="countries">Countries</a>
     <a href="cities">Cities</a>
+
+    <a href="customers.jsp">Client ! </a>
+
 </body>
 </html>
